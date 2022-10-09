@@ -1,3 +1,4 @@
+#Complete the function which takes two arguments and returns all numbers which are divisible by the given divisor. First argument is an array of numbers and the second is the divisor.
 def divisible_by(numbers, divisor):
     result = []
     
@@ -7,3 +8,13 @@ def divisible_by(numbers, divisor):
             result.append(e)
     
     return result
+
+
+numbers = []
+print('Введите числа, которые нужно разделить.\n')
+
+for e in range(3):
+    numbers.append(int(input()))
+
+divisor = int(input('Введите делитель.\n'))
+print(divisible_by(numbers, divisor))
