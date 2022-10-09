@@ -16,7 +16,5 @@ print('Введите числа, которые нужно разделить.\
 for e in range(3):
     numbers.append(int(input()))
 
-# numbers = int(input('Введите числа, которые нужно разделить.\n'))
-
 divisor = int(input('Введите делитель.\n'))
 print(divisible_by(numbers, divisor))
