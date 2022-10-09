@@ -9,6 +9,14 @@ def divisible_by(numbers, divisor):
     
     return result
 
-numbers = int(input('Введите числа, которые нужно разделить.\n'))
+
+numbers = []
+print('Введите числа, которые нужно разделить.\n')
+
+for e in range(3):
+    numbers.append(int(input()))
+
+# numbers = int(input('Введите числа, которые нужно разделить.\n'))
+
 divisor = int(input('Введите делитель.\n'))
 print(divisible_by(numbers, divisor))
